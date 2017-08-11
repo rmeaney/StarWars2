@@ -86,6 +86,6 @@ app.post("/api/new", function(req, res) {
 // Starts the server to begin listening
 // =============================================================
 var port = process.env.PORT || 3000;
-app.listen(PORT, function() {
+app.listen(port, function() {
   console.log("App listening on PORT " + PORT);
 });
